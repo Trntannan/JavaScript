@@ -85,4 +85,36 @@
 //  console.log(ageInDays);
 
 
+// // intermediate
 
+// // budget planner
+
+// let userIncome = prompt("monthly income");
+// let userExpenses = prompt("monthly expenses i.e. rent, utilities and food");
+// let sum = userIncome - userExpenses;
+// if (sum >=  0) {
+//     console.log("within budget");
+// } else {
+//     console.log("over budget");
+// }
+
+
+// // event scheduler 
+
+// let eventDay = prompt("day of the event");
+// let userAvailabile = prompt("are you available that day: yes or no?");
+// if ( userAvailabile == "yes") {
+//     console.log("Attendance Confirmed")
+// } else {
+//     console.log("sorry you cannot attend")
+// }
+
+// // temperature converter
+
+// let temperature = prompt("enter a temperature")
+// let typeTemperature = prompt("Celcius or Fahrenheit")
+// if (typeTemperature == "Fahrenheit"){
+//     console.log((temperature - 32) * 5/9, "converted temperature to Celcius")
+// } else {
+//     console.log((temperature * 9/5) + 32, "converted to Fahrenheit")
+// }
