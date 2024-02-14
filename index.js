@@ -13,7 +13,7 @@
 
 
 
-// // simple math test
+//] // simple math test
 
 // let userNumberOne = prompt ("provide a number");
 // let userNumberTwo = prompt ("provide a different number for userNumberTwo");
@@ -33,7 +33,7 @@
 
 // // age group
 
-// let age=35
+// let age=35;
 // if (age <= 13){
 //     console.log("child")
 // } else if (age > 14 && age <= 18){
@@ -44,7 +44,7 @@
 
 // // odd and even
 
-// let userNumber = prompt ("provide a number")
+// let userNumber = prompt ("provide a number");
 // if (userNumber % 2 == 0){
 //     console.log("even number")
 // } else {
@@ -53,9 +53,9 @@
 
 // // build a sentence
 
-// let subject = "subject"
-// let verb =  "verb"
-// let object = "object"
+// let subject = "subject";
+// let verb =  "verb";
+// let object = "object";
 //  console.log ("subject "+ "verb "+ "object ")
 
 // // the guessing game
@@ -111,10 +111,42 @@
 
 // // temperature converter
 
-// let temperature = prompt("enter a temperature")
-// let typeTemperature = prompt("Celcius or Fahrenheit")
+// let temperature = prompt("enter a temperature");
+// let typeTemperature = prompt("Celcius or Fahrenheit");
 // if (typeTemperature == "Fahrenheit"){
 //     console.log((temperature - 32) * 5/9, "converted temperature to Celcius")
 // } else {
 //     console.log((temperature * 9/5) + 32, "converted to Fahrenheit")
 // }
+
+// // grocery list sorter
+
+// let groceryItems = ["milk", "bread", "apples", "shampoo"]
+// let foodItems = []
+// let nonFoodItems = []
+
+// groceryItems.forEach(item => {
+//     if (item === "milk" || item === "bread" || item === "apples" ) {
+//         foodItems.push(item);
+//     } else {
+//         nonFoodItems.push(item);
+//     }
+// });
+
+// console.log("Food Items: ", foodItems);
+// console.log("Non-Food Items:", nonFoodItems)
+
+
+// // trip cost calculator
+
+// let userMiles = prompt("Total Miles Of Trip")
+// let fuelEfficiancy = prompt("Miles Per Gallon")
+// let fuelPrice = prompt("Current Price of Gas Per Gallon")
+// let sum = (userMiles / fuelEfficiancy) * fuelPrice;
+// console.log(sum)
+
+// book organizer
+
+
+
+ 
